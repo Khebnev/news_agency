@@ -307,8 +307,34 @@ margin-right: 8px;
 
 }
 
+.news-center__item {
+	width: 221px;
+	font-size: 14px;
+	line-height: 20px;
 
+}
 
+.news-center__item--wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+
+.news-center__item .news-center__img {
+	margin-top: 20px;
+}
+
+.news-center__title {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 18px;
+}
+
+.news-center__props {
+	margin: 0;
+	padding: 0;
+}
 
 
 
