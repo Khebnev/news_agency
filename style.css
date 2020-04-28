@@ -256,6 +256,28 @@ margin-right: 8px;
 	background-repeat: no-repeat;
 }
 
+.button-container {
+
+}
+
+.button-container .all-news {
+	width: 180px;
+	display: block;
+	font-size: 14px;
+	line-height: 30px;
+	color: #448ccb;
+
+	background-color: #fff;
+	box-sizing: border-box;
+
+	border: 1px solid #448ccb;
+
+	border-radius: 15px;
+
+	margin: 0 auto;
+	text-align: center;
+}
+
 
 
 
