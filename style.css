@@ -256,9 +256,7 @@ margin-right: 8px;
 	background-repeat: no-repeat;
 }
 
-.button-container {
 
-}
 
 .button-container .all-news {
 	width: 180px;
@@ -351,7 +349,7 @@ margin-right: 8px;
 .news-center__title {
 	margin: 0;
 	padding: 0;
-	margin-bottom: 18px;
+	margin-bottom: 10px;
 }
 
 .news-center__props {
