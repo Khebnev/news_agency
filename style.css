@@ -370,4 +370,133 @@ margin-right: 8px;
 	padding-bottom: 20px;
 }
 
-/* центр */
+
+/*bottom news*/
+
+.popular-news {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #fff;
+}
+
+.popular-news__left {
+	width: 588px;
+	background-image: url('img/news-pic5.jpg');
+	background-color: #fff;
+	padding-left: 18px;
+	box-sizing: border-box;
+}
+
+.popular-news__left a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	margin-top: 99px;
+}
+
+
+.popular-news__left .popular-news__left__title {
+	color: #fff;
+	font-size: 30px;
+	line-height: 35px;
+	margin: 0;
+	padding: 0;
+	margin-top: 18px;
+	margin-bottom: 18px;
+	width: 400px;
+}
+
+.popular-news__left .popular-news__left__props {
+	color: #fff;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 18px;
+}
+
+
+.popular-news__left__props .popular-news-time {
+	position: absolute;
+	top: 0;
+	left: 114px;
+	padding-left: 15px;
+	background-image: url('img/clock-popular.png');
+	background-repeat: no-repeat;
+	background-position: 0 2px;
+}
+
+.popular-news__left .popular-news__left-text {
+	color: #fff;
+	width: 483px;
+	opacity: 0.55;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 26px;
+}
+
+
+
+
+.popular-news__right {
+	width: 412px;
+}
+
+.popular-news__right h2{
+	margin: 0;
+	padding: 0;
+	padding-left: 18px;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	margin-bottom: 27px;
+
+	font-size: 20px;
+	line-height: 30px;
+
+	border-bottom: 1px solid #fbfbfb;
+
+}
+
+.popular-news-item {
+	padding-left: 18px;
+	padding-bottom: 27px;
+}
+
+.popular-news-item .popular-news-title {
+	margin: 0;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+.popular-news-props {
+	font-size: 12px;
+	position: relative;
+	/*display: flex;*/
+	margin: 0;
+	padding: 0;
+}
+
+.popular-news-props a {
+	color: #91919f;
+	text-decoration: none;
+
+}
+
+.popular-news-props .popular-news-time {
+	position: absolute;
+	top: 0;
+	left: 120px;
+	padding-left: 15px;
+	background-image: url('img/clock.png');
+	background-repeat: no-repeat;
+}
+
+.popular-news-props .popular-news-comments-count {
+	position: absolute;
+	top: 0;
+	left: 180px;
+	padding-left: 15px;
+	background-image: url('img/chat.png');
+	background-repeat: no-repeat;
+}
