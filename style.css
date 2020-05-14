@@ -783,7 +783,11 @@ background-repeat: repeat-x; */
 	background-position: 0 4px;
 }
 
+.footer__line {
+	height: 1px;
+	background-color:  #081935;
 
+}
 
 .footer-copyright {
 	font-size: 14px;
@@ -793,5 +797,5 @@ background-repeat: repeat-x; */
 	padding-top: 18px;
 	padding-bottom: 18px;
 
-	border-top: 1px solid #081935;
+	/* border-top: 1px solid #081935; */
 }
