@@ -710,6 +710,12 @@ background-repeat: repeat-x; */
 	border-radius: 50%;
 	box-sizing: border-box;
 }
+.social-list a {
+	display: block;
+	width: 38px;
+	height: 38px;
+	cursor: pointer;
+}
 
  .social-item:nth-child(1) {
  		background-image: url('img/vk.svg');
