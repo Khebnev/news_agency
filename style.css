@@ -6,12 +6,17 @@ body {
 	font-family: Arial;
 }
 
-.visually-hidden {
+.visually-hidden:not(:focus):not(:active) {
   position: absolute;
   clip: rect(0 0 0 0);
   width: 1px;
   height: 1px;
-  margin: -1px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  overflow: hidden;
 }
 
 .container {
@@ -183,6 +188,7 @@ margin-right: 8px;
 	background-image: url('img/bg-shadow.png');
 	background-repeat: repeat-x;
 	padding-top: 20px;
+	padding-bottom: 60px;
 }
 
 .bg-wrapper .container{
@@ -364,6 +370,14 @@ margin-right: 8px;
 	margin: 0;
 	padding: 0;
 }
+
+.news-center__props a{
+
+	color: #91919f;
+	text-decoration: none;
+}
+
+
 
 
 
@@ -582,7 +596,7 @@ margin-right: 8px;
 }
 
 .write-us {
-	margin-left: auto;
+/*	margin-left: auto;*/
 	width: 250px;
 }
 
@@ -604,12 +618,36 @@ margin-right: 8px;
 	box-sizing: border-box;
 }
 
-/* .social-item:first-child {
+ .social-item:nth-child(1) {
  		background-image: url('img/vk.svg');
- 				width: 40px;
-	height: 40px;
+		 background-size: 30px 22px;
+		 background-repeat: no-repeat;
+		 background-position: 3px 8px;
  }
-*/
+
+ .social-item:nth-child(2) {
+	background-image: url('img/facebook.svg');
+	background-size: 30px 22px;
+	background-repeat: no-repeat;
+	background-position: 4px 8px;
+}
+
+.social-item:nth-child(3) {
+	background-image: url('img/twitter.svg');
+	background-size: 30px 22px;
+	background-repeat: no-repeat;
+	background-position: 4px 8px;
+}
+
+.social-item:nth-child(4) {
+	background-image: url('img/instagram.svg');
+	background-size: 30px 22px;
+	background-repeat: no-repeat;
+	background-position: 4px 8px;
+}
+
+
+
 /*.social-item a:nth-child(1) {
 	background-image: url('img/vk.svg');
 		width: 40px;
