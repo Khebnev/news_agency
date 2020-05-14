@@ -143,6 +143,9 @@ margin-right: 8px;
 
 /* menu */
 
+/*background-image: url('img/slash.png');
+background-repeat: repeat-x; */
+
 .header-bottom {
 	margin-bottom: 35px;
 }
@@ -153,9 +156,6 @@ margin-right: 8px;
 	list-style: none;
 	margin: 0;
 	padding: 0;
-
-	background-image: url('img/slash.png');
-	background-repeat: repeat-x;
 
 }
 
@@ -169,6 +169,99 @@ margin-right: 8px;
 
 .menu-list .menu-item {
 	margin-right: 42px;
+	position: relative;
+}
+
+.menu-item:nth-child(1)::after {
+	content: "";
+	position: absolute;
+	width: 5px;
+	height: 15px;
+	top: 0;
+	left: 77px;
+	/* background-color: red; */
+	background-image: url('img/slash.png');
+ 	background-repeat: no-repeat; 
+}
+
+.menu-item:nth-child(2)::after {
+	content: "";
+	position: absolute;
+	width: 5px;
+	height: 15px;
+	top: 0;
+	left: 87px;
+	/* background-color: red; */
+	background-image: url('img/slash.png');
+ 	background-repeat: no-repeat; 
+}
+
+.menu-item:nth-child(3)::after {
+	content: "";
+	position: absolute;
+	width: 5px;
+	height: 15px;
+	top: 0;
+	left: 93px;
+	/* background-color: red; */
+	background-image: url('img/slash.png');
+ 	background-repeat: no-repeat; 
+}
+.menu-item:nth-child(4)::after {
+	content: "";
+	position: absolute;
+	width: 5px;
+	height: 15px;
+	top: 0;
+	left: 97px;
+	/* background-color: red; */
+	background-image: url('img/slash.png');
+ 	background-repeat: no-repeat; 
+}
+.menu-item:nth-child(5)::after {
+	content: "";
+	position: absolute;
+	width: 5px;
+	height: 15px;
+	top: 0;
+	left: 70px;
+	/* background-color: red; */
+	background-image: url('img/slash.png');
+ 	background-repeat: no-repeat; 
+}
+.menu-item:nth-child(6)::after {
+	content: "";
+	position: absolute;
+	width: 5px;
+	height: 15px;
+	top: 0;
+	left: 117px;
+	/* background-color: red; */
+	background-image: url('img/slash.png');
+ 	background-repeat: no-repeat; 
+}
+
+.menu-item:nth-child(7)::after {
+	content: "";
+	position: absolute;
+	width: 5px;
+	height: 15px;
+	top: 0;
+	left: 63px;
+	/* background-color: red; */
+	background-image: url('img/slash.png');
+ 	background-repeat: no-repeat; 
+}
+.menu-item:nth-child(8)::after {
+	content: "";
+	position: absolute;
+	width: 5px;
+	height: 15px;
+	top: 0;
+	left: 62px;
+	/* background-color: red; */
+	background-image: url('img/slash.png');
+ 	background-repeat: no-repeat; 
 }
 
 .menu-list .menu-item:last-child {
